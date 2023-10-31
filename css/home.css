@@ -1,0 +1,157 @@
+/* Styling for the footer */
+#temple-footer {
+    background-color: #f5f5f5;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-logo {
+    color: #db0a1f;
+}
+
+.fa-location-dot {
+    color: #e70d0d;
+    font-size: 30px;
+}
+
+#address-details {
+    color: black;
+}
+
+.footer-lead {
+    color: #db0a1f;
+}
+
+#timings-table {
+    border-collapse: collapse;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: #333;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #333;
+}
+
+.copyright {
+    background-color: #e0e0e0;
+    padding: 15px 0;
+}
+  
+footer{
+    /* text-align: center; */
+    color: #7b0d0d}
+    .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust width as needed */
+    gap: 15px; /* Increased gap for spacing between images */
+    margin: 0 auto;
+    max-width: 800px; /* Set a max width for the gallery */
+    
+    }
+
+    .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px; /* Rounded corners for a sleek look */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow for elevation */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transitions */
+    cursor: pointer; /* Show hand cursor on hover */
+    }
+
+    .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+
+    .gallery-item:hover {
+    transform: scale(1.05); /* Slightly larger on hover */
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2); /* Enhanced box shadow on hover */
+    }
+
+        
+
+    /* Styles for the "Load More" button */
+    #load-more-button {
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+    padding: 10px 50px;
+    background-color: #ddbd86;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    }
+    #photo_gal{
+        text-align: center;
+        color: #ff131b;
+    }
+    .container{
+        margin-bottom: -100px;
+    }
+
+    #fh5co-features {
+    background-color: #f5f5f5; /* Set a light background color */
+    padding: 40px 0; /* Add padding for spacing */
+    text-align: center; /* Center-align content */
+}
+
+.fh5co-section-lead {
+    font-weight:bold;
+    font-size: 32px; /* Increase heading font size for emphasis */
+    color: #333; /* Set a dark text color for the heading */
+    line-height: 30px;
+}
+
+.fh5co-section-sub-lead {
+    text-align: justify;
+    font-family: Arial, sans-serif; /* Use Arial font for content */
+    line-height: 1.6; /* Improve readability with increased line height */
+    margin: 0 auto; /* Center-align the text within the container */
+    color: #555; /* Set a slightly darker text color for the content */
+}
+
+#fh5co-features .container {
+    background-color: #fff; /* Set a white background color for the container */
+    border-radius: 10px; /* Add rounded corners for the container */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the container */
+    padding: 30px; /* Add padding inside the container */
+}
+
+#load-more-button {
+    background-color: #E1A679; /* Set a button background color */
+    color: #fff; /* Set text color for the button */
+    padding: 10px 20px; /* Add padding to the button for better appearance */
+    font-size: 18px; /* Increase button text size */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add pointer cursor for the button */
+    border-radius: 5px; /* Add rounded corners to the button */
+    transition: background-color 0.3s; /* Add a smooth transition effect on hover */
+}
+
+#load-more-button:hover {
+    background-color: #C28858; /* Change button background color on hover */
+}
+
