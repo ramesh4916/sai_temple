@@ -131,60 +131,6 @@
                 margin: 4px;
             }
         }
-/* Style for the menu items */
-.menu-item-has-children {
-  list-style: none;
-  display: inline-block;
-  margin-right: 20px; /* Adjust this margin as needed */
-  position: relative;
-}
-
-.menu-item-has-children > a {
-  text-decoration: none;
-  color: #333; /* Text color */
-  font-weight: bold; /* Font weight */
-  display: block;
-}
-
-.menu-item-has-children > a:hover {
-  text-decoration: none; /* Remove underline on hover */
-  color: #ff6600; /* Text color on hover */
-}
-
-/* Style for the sub-menu */
-.sub-menu {
-  display: none;
-  background-color: #fff; /* Background color of sub-menu */
-  padding: 10px; /* Adjust as needed */
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Box shadow for sub-menu */
-}
-
-.menu-item-has-children:hover .sub-menu {
-  display: block; /* Show sub-menu on hover */
-}
-
-.sub-menu li {
-  margin-bottom: 10px; /* Adjust spacing between sub-menu items */
-  list-style: none; /* Remove the list marker */
-}
-
-.sub-menu li a {
-  text-decoration: none;
-  color: #333; /* Text color */
-}
-
-.sub-menu li a:hover {
-  text-decoration: none; /* Remove underline on hover */
-  color: #ff6600; /* Text color on hover */
-}
-
-/* Media query for mobile devices */
-@media (max-width: 768px) {
-  .menu-item-has-children {
-    display: block;
-    margin-right: 0; /* Remove the margin for mobile devices */
-  }
-}
 
     </style>
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -227,17 +173,9 @@
                     <li><a class="page-scroll" href="index.html">Home</a></li>
                     <li><a class="page-scroll" href="about_saibaba.html">About Sri Shirdi Saibaba</a></li>                    
                     <li><a class="page-scroll" href="aboutTemple.html">About Temple</a></li>          
-                    <li class="menu-item-has-children">
-                        <a href="#">
-                            <span>Aartis <span class="border"></span></span>
-                        </a>
-                        <ul class="sub-menu">
-                            <li><a href="arti.html">Audio</a></li>
-                            <li><a href="video_arti.html">Video</a></li>
-                            <!-- <li><a href="arti-subpage3.html">Subpage 3</a></li> -->
-                        </ul>
-                    </li>
-                    <!-- <li><a class="page-scroll" href="PriestServices.html">Priest Services</a></li> -->
+                    <li><a class="page-scroll" href="arti.html">Aartis</a></li>
+                   
+                    <li><a href="video_bhajan.html"><span>Bhajans <span class="border"></span></span></a></li>
                     <li><a class="page-scroll" href="events.html">News & Events</a></li>
                     <li><a class="page-scroll" href="gallery.html">Gallery</a></li>
                     <!-- <li><a class="page-scroll" href="horoscope.html">Horoscope</a></li>                     -->
